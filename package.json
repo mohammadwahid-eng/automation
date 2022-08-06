@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mohammadwahid-eng/automation/issues"
   },
-  "homepage": "https://github.com/mohammadwahid-eng/automation#readme"
+  "homepage": "https://github.com/mohammadwahid-eng/automation#readme",
+  "devDependencies": {
+    "cypress": "^10.4.0"
+  }
 }
