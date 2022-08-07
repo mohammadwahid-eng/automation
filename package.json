@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Automation with cypress using github actions.",
   "scripts": {
+    "cy:run": "npx cypress run",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
