@@ -11,6 +11,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       
+      - name: Install Dependencies
+        run: |
+          npm install cypress --save-dev
+      
       - name: My Experiments
         run: |
           npx cypress run --headless
