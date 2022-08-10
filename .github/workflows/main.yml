@@ -1,9 +1,13 @@
 name: Cypress tests
-on: [push]
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: 
+      - 'e2e**'
 jobs:
   cypress-run:
     name: Cypress run
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
