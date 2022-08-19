@@ -1,7 +1,7 @@
 name: "Corn Job"
 on:
   schedule:
-  - cron: "*/5 * * * *"
+  - cron: '32 * * * *'
 
 jobs:
   corn-job:
