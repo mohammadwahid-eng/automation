@@ -1,7 +1,5 @@
 name: Cypress tests
 on:
-  schedule:
-    - cron:  '*/5 * * * *'
   workflow_dispatch:
   pull_request:
     branches: ['main']
